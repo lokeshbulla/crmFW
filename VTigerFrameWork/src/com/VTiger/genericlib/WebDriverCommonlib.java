@@ -80,5 +80,21 @@ public class WebDriverCommonlib extends BaseClass
 	return AlertText;
 		
 	}
-
+	public void m1()
+	{
+		System.out.println("m1 running");
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
