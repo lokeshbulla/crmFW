@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="10" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="87845" started-at="2019-08-24T04:45:34Z" finished-at="2019-08-24T04:47:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="87845" started-at="2019-08-24T04:45:34Z" finished-at="2019-08-24T04:47:02Z">
+      <class name="com.VTiger.Organizations.CreateOrganization">
+        <test-method status="PASS" signature="loginPage()[pri:0, instance:com.VTiger.Organizations.CreateOrganization@5c3bd550]" name="loginPage" is-config="true" duration-ms="3573" started-at="2019-08-24T04:46:28Z" finished-at="2019-08-24T04:46:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="TestCreateOrganization()[pri:0, instance:com.VTiger.Organizations.CreateOrganization@5c3bd550]" name="TestCreateOrganization" duration-ms="12530" started-at="2019-08-24T04:46:32Z" finished-at="2019-08-24T04:46:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCreateOrganization -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.VTiger.Organizations.CreateOrganization@5c3bd550]" name="logout" is-config="true" duration-ms="3621" started-at="2019-08-24T04:46:44Z" finished-at="2019-08-24T04:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.VTiger.Organizations.CreateOrganization -->
+      <class name="com.VTiger.Campaigns.CreateCampaingsTest">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.VTiger.Campaigns.CreateCampaingsTest@1bce4f0a]" name="OpenBrowser" is-config="true" duration-ms="4712" started-at="2019-08-24T04:45:34Z" finished-at="2019-08-24T04:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="loginPage()[pri:0, instance:com.VTiger.Campaigns.CreateCampaingsTest@1bce4f0a]" name="loginPage" is-config="true" duration-ms="4070" started-at="2019-08-24T04:45:39Z" finished-at="2019-08-24T04:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="TestCreatCampaings()[pri:0, instance:com.VTiger.Campaigns.CreateCampaingsTest@1bce4f0a]" name="TestCreatCampaings" duration-ms="21810" started-at="2019-08-24T04:45:43Z" finished-at="2019-08-24T04:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCreatCampaings -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.VTiger.Campaigns.CreateCampaingsTest@1bce4f0a]" name="logout" is-config="true" duration-ms="3496" started-at="2019-08-24T04:46:04Z" finished-at="2019-08-24T04:46:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:com.VTiger.Campaigns.CreateCampaingsTest@1bce4f0a]" name="Closebrowser" is-config="true" duration-ms="1498" started-at="2019-08-24T04:47:00Z" finished-at="2019-08-24T04:47:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closebrowser -->
+      </class> <!-- com.VTiger.Campaigns.CreateCampaingsTest -->
+      <class name="com.VTiger.Campaigns.DeleteCampaingsTest">
+        <test-method status="PASS" signature="loginPage()[pri:0, instance:com.VTiger.Campaigns.DeleteCampaingsTest@91161c7]" name="loginPage" is-config="true" duration-ms="3521" started-at="2019-08-24T04:46:48Z" finished-at="2019-08-24T04:46:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="TestDeleteCampaings()[pri:0, instance:com.VTiger.Campaigns.DeleteCampaingsTest@91161c7]" name="TestDeleteCampaings" duration-ms="6710" started-at="2019-08-24T04:46:51Z" finished-at="2019-08-24T04:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDeleteCampaings -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.VTiger.Campaigns.DeleteCampaingsTest@91161c7]" name="logout" is-config="true" duration-ms="2264" started-at="2019-08-24T04:46:58Z" finished-at="2019-08-24T04:47:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.VTiger.Campaigns.DeleteCampaingsTest -->
+      <class name="com.VTiger.Campaigns.EditCampaings">
+        <test-method status="PASS" signature="loginPage()[pri:0, instance:com.VTiger.Campaigns.EditCampaings@5e3a8624]" name="loginPage" is-config="true" duration-ms="3249" started-at="2019-08-24T04:46:08Z" finished-at="2019-08-24T04:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="TestEditCampaings()[pri:0, instance:com.VTiger.Campaigns.EditCampaings@5e3a8624]" name="TestEditCampaings" duration-ms="13074" started-at="2019-08-24T04:46:11Z" finished-at="2019-08-24T04:46:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestEditCampaings -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.VTiger.Campaigns.EditCampaings@5e3a8624]" name="logout" is-config="true" duration-ms="3702" started-at="2019-08-24T04:46:24Z" finished-at="2019-08-24T04:46:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.VTiger.Campaigns.EditCampaings -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

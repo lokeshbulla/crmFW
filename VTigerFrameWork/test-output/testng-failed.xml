@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.VTiger.Organizations.CreateOrganization">
+        <methods>
+          <include name="Closebrowser"/>
+          <include name="TestCreateOrganization"/>
+          <include name="loginPage"/>
+          <include name="logout"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- com.VTiger.Organizations.CreateOrganization -->
+      <class name="com.VTiger.Campaigns.DeleteCampaingsTest">
+        <methods>
+          <include name="Closebrowser"/>
+          <include name="TestDeleteCampaings"/>
+          <include name="loginPage"/>
+          <include name="logout"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- com.VTiger.Campaigns.DeleteCampaingsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
