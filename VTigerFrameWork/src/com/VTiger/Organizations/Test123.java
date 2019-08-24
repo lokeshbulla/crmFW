@@ -7,6 +7,6 @@ public class Test123 {
 	@Test
 	public void create()
 	{
-		System.out.println("Test Running");
+		System.out.println("Test class running");
 	}
 }
