@@ -6,7 +6,7 @@ public class Demo1 {
 	@Test
 	public void demotest()
 	{
-		System.out.println("demo test running");
+		System.out.println("Demo test");
 	}
 
 }
